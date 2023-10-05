@@ -1,0 +1,42 @@
+.dashboard-main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard-container {
+  background-color: #a1a1a1;
+  width: 15%;
+  height: 100%;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10rem;
+  margin-top: 4rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dashboard-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-li {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: semibold;
+  transition: color 0.2s;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+  color: #ffffff;
+}
